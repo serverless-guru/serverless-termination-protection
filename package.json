@@ -1,0 +1,22 @@
+{
+  "name": "serverless-termination-protection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverless-guru/serverless-termination-protection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serverless-guru/serverless-termination-protection/issues"
+  },
+  "homepage": "https://github.com/serverless-guru/serverless-termination-protection#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.462.0"
+  }
+}
