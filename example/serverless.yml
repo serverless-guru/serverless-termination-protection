@@ -14,7 +14,7 @@ plugins:
 custom:
   serverlessTerminationProtection:
     stages:
-      - prod
+      - dev
       - alpha
 
 functions:
