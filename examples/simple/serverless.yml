@@ -1,0 +1,16 @@
+service: serverless-termination-protection
+
+provider:
+  name: aws
+  runtime: python3.7
+  versionFunctions: false
+  stage: ${opt:stage, "dev"}
+  profile: ${opt:profile, "default"}
+  region: ${opt:region, "us-west-2"}
+
+plugins:
+  - serverless-termination-protection
+
+functions:
+  main:
+    handler: main.handler
